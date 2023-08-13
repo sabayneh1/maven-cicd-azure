@@ -41,7 +41,7 @@ steps:
     sshEndpoint: 'MySSHConnection' 
     runOptions: 'inline'
     inline: |
-      cd /opt/deploy
+      cd opt/deploy
       rm -rf *
       cp -r $(System.ArtifactsDirectory)/* .
       ./deploy.sh
