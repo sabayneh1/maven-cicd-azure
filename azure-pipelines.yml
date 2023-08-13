@@ -30,3 +30,19 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'webapp'
     publishLocation: 'Container'
+- task: DownloadBuildArtifacts@0
+  inputs:
+     buildType: 'current'
+     downloadType: 'single'
+     artifactName: 'webapp'
+     downloadPath: '$(System.ArtifactsDirectory)'
+- task: SSH@0
+  inputs:
+    sshEndpoint: 'MySSHConnection' 
+    runOptions: 'inline'
+    inline: |
+      cd /opt/deploy
+      rm -rf *
+      cp -r $(System.ArtifactsDirectory)/* .
+      ./deploy.sh
+
