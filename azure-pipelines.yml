@@ -32,20 +32,3 @@ steps:
     PathtoPublish: '$(build.artifactstagingdirectory)'
     ArtifactName: 'webapp'
     publishLocation: 'Container'
-
-- task: DownloadBuildArtifacts@0
-  inputs:
-     buildType: 'current'
-     downloadType: 'single'
-     artifactName: 'webapp'
-     downloadPath: '$(System.ArtifactsDirectory)'
-
-- task: SSH@0
-  inputs:
-    sshEndpoint: 'MySSHConnection'  # Update this to the name of your SSH service connection
-    runOptions: 'inline'
-    inline: |
-      cd /opt/deploy  # Correct the directory path
-      rm -rf *
-      cp -r $(System.ArtifactsDirectory)/* .
-      ./deploy.sh
