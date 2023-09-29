@@ -74,7 +74,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="sgoshime@gmail.com" class="contact-link">edvinaustindsouza@gmail.com</a>
+              <a href="sgoshime@gmail.com" class="contact-link">sgoshime@gmail.com</a>
             </div>
 
           </li>
