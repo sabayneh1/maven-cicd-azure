@@ -46,7 +46,7 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Edvin Austin Dsouza">Edvin Austin Dsouza</h1>
+          <h1 class="name" title="samander Abayneh">Samander Abayneh</h1>
 
           <p class="title">DevOp Engineer </p>
         </div>
@@ -74,7 +74,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:edvinaustindsouza@gmail.com" class="contact-link">edvinaustindsouza@gmail.com</a>
+              <a href="sgoshime@gmail.com" class="contact-link">edvinaustindsouza@gmail.com</a>
             </div>
 
           </li>
