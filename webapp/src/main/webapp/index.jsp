@@ -181,7 +181,7 @@
           <p>
            
             Hello! I'm a Cloud DevOps Engineer . 
-            I am Edvin Austin Dsouza, a highly motivated and self-driven DevOps and Cloud Engineer with experience in implementing DevOps practices and working with Azure and AWS.
+            I am Samander Abayneh, a highly motivated and self-driven DevOps and Cloud Engineer with experience in implementing DevOps practices and working with Azure and AWS.
             My expertise lies in automating deployments, optimizing processes, and advocating for innovation and security. 
             I am passionate about driving business success through my technical expertise and collaborative approach.
 
